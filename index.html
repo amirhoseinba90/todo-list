@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./bootstrap.css" />
+    <title>TodoList</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        <i class="bi bi-calendar-check"></i>
+        todoList
+      </h1>
+
+      <form id="item-form" class="add-items" action="">
+        <div class="add-header">
+          <label for="">Enter Item</label>
+          <input id="item-input" type="text" />
+          <div id="input-invalid"></div>
+        </div>
+        <button class="btn">
+          <i class="bi bi-plus-lg"></i>
+          Add Item
+        </button>
+      </form>
+
+      <input id="filter" type="text" placeholder="Filter Items" />
+
+      <ul id="list-items">
+        <!-- <li id="list-item">
+          An item
+          <i class="bi bi-x"></i>
+        </li>
+        <li id="list-item">
+          A second item
+          <i class="bi bi-x"></i>
+        </li>
+        <li id="list-item">
+          A third item
+          <i class="bi bi-x"></i>
+        </li>
+        <li id="list-item">
+          A fourth item
+          <i class="bi bi-x"></i>
+        </li> -->
+      </ul>
+      <button id="clear-btn" class="clear-btn btn">Clear All</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
