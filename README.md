@@ -8,7 +8,7 @@ A simple and clean Todo List application built with HTML, CSS, and JavaScript.
 
 ## 🖼️ Preview
 
-![Todo List Preview](preview.png)
+![Todo List Preview](todo-list-preview.png)
 
 ## 🛠️ Built With
 
